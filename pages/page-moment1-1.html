@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momento 1-Si</title>
+
+    <!-- Cdn Nostalgic / Nes.css -->
+    <link href="https://unpkg.com/nes.css@2.2.0/css/nes.min.css" rel="stylesheet" />
+
+    <!-- Css principal -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="nes-container is-dark with-title is-centered">
+                <p class="title">No dude que eligirias el <strong>SI</strong></p>
+                <p>
+                    Cómo olvidar el día en que todo comenzó, un 14 de Mayo del 22.
+                    En una salida aleatoria, sin miedo al que dirán el público porque
+                    nadie nos conocía. Caminando sin miedo con las chanclas xd'.
+                </p>
+                <p>
+                    Hasta llegar al estadio para la sesión de fotos que se nos ocurrio 
+                    realizar, tus ojos
+                </p>
+            </div>
+            <!-- <img src="../resource/images/14052022-1.jpeg" alt="14052022-1">
+            <img src="../resource/images/14052022-2.jpeg" alt="14052022-2"> -->
+        </section>
+        <section>
+            <button type="button" class="nes-btn is-primary" onclick="document.getElementById('dialog-dark').showModal();">
+                Foto 1
+            </button>
+            <dialog class="nes-dialog is-dark" id="dialog-dark">
+              <form method="dialog">
+                <p class="title">Foto 1</p>
+                <p>Alert: this is a dialog.</p>
+                <img src="../resource/images/14052022-1.jpeg" alt="14052022-1">
+                <menu class="dialog-menu">
+                  <button class="nes-btn">Cancel</button>
+                  <button class="nes-btn is-primary">Confirm</button>
+                </menu>
+              </form>
+            </dialog>
+        </section>
+    </main>
+</body>
+</html>
