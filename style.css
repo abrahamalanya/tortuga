@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+:root {
+    --background: #1e1e1e;
+}
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
 }
 
 html, body, pre, code, kbd, samp {
@@ -16,8 +24,7 @@ main{
 }
 
 section{
-    background-color: #0fa435;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +33,13 @@ section{
 .text-footer{
     font-size: small;
 }
+
+/* ===================================MAIN================================ */
+.photografy img {
+    width: 15rem;
+}
+/* ===================================MAIN================================ */
+
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
